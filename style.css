@@ -187,15 +187,15 @@ section{
 }
 
 .one{
-    background: url("/assests/box-1.jpeg") no-repeat center/cover;
+    background: url("assests/box-1.jpeg") no-repeat center/cover;
 }
 
 .two{
-    background: url("/assests/box-2.jpg") no-repeat center/cover;
+    background: url("assests/box-2.jpg") no-repeat center/cover;
 }
 
 .three{
-    background: url("/assests/box-3.jpg") no-repeat center/cover;
+    background: url("assests/box-3.jpg") no-repeat center/cover;
 }
 
 
