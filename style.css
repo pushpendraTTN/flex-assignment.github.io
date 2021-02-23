@@ -22,7 +22,7 @@ section{
 
 /* background styling */
 .banner-container{
-    background:url("/assests/main-div-background.png") no-repeat center/cover;
+    background:url("assests/main-div-background.png") no-repeat center/cover;
     height: 100vh;
     position: relative;
 }
@@ -92,7 +92,7 @@ section{
  }
 
  .content-image{
-     background: url("/assests/content-pic-1.JPG") no-repeat center/cover;
+     background: url("assests/content-pic-1.JPG") no-repeat center/cover;
      height: 200px;
      width: 200px;
      border-radius: 50%;
@@ -138,7 +138,7 @@ section{
 }
 
 .second-content-image{
-    background: url("/assests/content-pic-2.jpeg") no-repeat center/cover;
+    background: url("assests/content-pic-2.jpeg") no-repeat center/cover;
     height: 200px;
     width: 200px;
     border-radius: 50%;
