@@ -1,0 +1,33 @@
+.banner-container{
+    height: 80vh;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px){
+    .first-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-image{
+        margin: 0 auto;
+    }
+    .content-message{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .second-content{
+        display: flex;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+
+    .second-content-image{
+        margin: 0 auto;
+    }
+}

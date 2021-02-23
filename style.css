@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.9rem;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    overflow:auto;
+}
+
+section{
+    overflow: auto;
+}
+
+/* background styling */
+.banner-container{
+    background:url("/assests/main-div-background.png") no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* background content styling */
+.banner-content h1,
+.banner-content p{
+    color: #fff;
+    padding: 10px;
+}
+
+.banner-content h1{
+    font-weight: 200;
+}
+
+.banner-content p{
+    font-weight: 100;
+}
+
+/* banner content styling */
+.banner-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    height: 100%;
+    max-width: 1200px;
+}
+
+/* overlay css */
+.banner-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* banner content button styling */
+.banner-content button{
+    background-color: #4c98dc;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    width: 150px;
+    margin-top: 3rem;
+ }
+ 
+ .banner-content button:hover{
+     cursor: pointer;
+     opacity: 0.9;
+ 
+ }
+
+
+ .first-content{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     height: 100%;
+     padding: 30px;
+ }
+
+ .content-image{
+     background: url("/assests/content-pic-1.JPG") no-repeat center/cover;
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     margin: 20px;
+ }
+
+.content-message{
+    width: 80%;
+    height: 100%;
+    text-align:left;
+}
+
+/* .content-message p{
+    color: #000;
+    padding: 5px 0;
+} */
+
+/* Utility class */
+.btn{
+    background-color: #4c98dc;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    /* width: 150px; */
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.info{
+    background-color: #4c98dc;
+}
+.second-content{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* margin-top: 20px;    */
+    padding: 30px;
+}
+
+.second-content-image{
+    background: url("/assests/content-pic-2.jpeg") no-repeat center/cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.second-content button{
+    background-color: #fff;
+    color: #4c98dc;
+}
+
+.third-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box button{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.box{
+    padding: 20px 40px;
+    text-align: center;
+    font-size: small;
+    /* align-items: center; */
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px auto;
+
+}
+
+.one{
+    background: url("/assests/box-1.jpeg") no-repeat center/cover;
+}
+
+.two{
+    background: url("/assests/box-2.jpg") no-repeat center/cover;
+}
+
+.three{
+    background: url("/assests/box-3.jpg") no-repeat center/cover;
+}
+
+
+.icons i{
+    padding: 5px;
+}
+
+.copyright-info{
+    text-align: center;
+    font-size: x-small;
+}
